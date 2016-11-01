@@ -1,1 +1,2 @@
-GET        /        controllers.Simple.index()
+GET        /                        controllers.Simple.index()
+GET        /chaining-methods        controllers.ChainingMethods.index()
