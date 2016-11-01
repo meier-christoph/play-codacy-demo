@@ -1,2 +1,4 @@
 GET        /                        controllers.Simple.index()
 GET        /chaining-methods        controllers.ChainingMethods.index()
+GET        /errors                  controllers.Errors.index()
+GET        /options                 controllers.Options.index(data:Option[String])
