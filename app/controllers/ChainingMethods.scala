@@ -2,8 +2,6 @@ package controllers
 
 import play.api.mvc.{Action, Controller}
 
-import scala.reflect.io.Path.string2path
-
 class ChainingMethods extends Controller {
   def index() = Action {
     // BAD: chaining methods like this makes it hard to read and easy to miss something
